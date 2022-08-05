@@ -1,0 +1,31 @@
+.container {
+  padding: 0 120px;
+}
+
+.btnBackContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.btnBack {
+  margin-top: 40px;
+}
+
+.title {
+  text-align: center;
+  font-size: 64px;
+  margin-top: -80px;
+}
+
+.searchResult {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 42px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+}
