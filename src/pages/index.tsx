@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
     Axios({
       method: "post",
-      url: "http://127.0.0.1:5000/buzzerfinder",
+      url: "https://backed-buzzer-finder.et.r.appspot.com/buzzerfinder",
       data: formData,
       headers: {
         "Content-Type": "application/json",
